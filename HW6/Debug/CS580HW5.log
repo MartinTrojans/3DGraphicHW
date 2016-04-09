@@ -1,0 +1,158 @@
+﻿生成启动时间为 10/26/2015 12:06:16 PM。
+项目“C:\CSCI-580-3D-master\HW6\CS580HW5.vcxproj”在节点 2 上(Build 个目标)。
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp".\Debug\CS580HW5.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+  StdAfx.cpp
+c:\program files\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Debug\CS580HW5.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Application5.cpp CS580HW.cpp CS580HWDoc.cpp CS580HWView.cpp disp.cpp MainFrm.cpp rend.cpp RotateDlg.cpp ScaleDlg.cpp tex_fun.cpp TranslateDlg.cpp
+  TranslateDlg.cpp
+  tex_fun.cpp
+c:\csci-580-3d-master\hw6\tex_fun.cpp(37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(70): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(71): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(72): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(73): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+c:\csci-580-3d-master\hw6\tex_fun.cpp(28): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+c:\csci-580-3d-master\hw6\tex_fun.cpp(19): warning C4101: “j”: 未引用的局部变量
+c:\csci-580-3d-master\hw6\tex_fun.cpp(118): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\tex_fun.cpp(118): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\tex_fun.cpp(120): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(121): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(122): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(123): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(138): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(139): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\tex_fun.cpp(140): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  ScaleDlg.cpp
+  RotateDlg.cpp
+  rend.cpp
+c:\csci-580-3d-master\hw6\rend.cpp(26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(74): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(75): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(76): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(77): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(170): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(173): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(175): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(177): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(180): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(192): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\rend.cpp(192): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\rend.cpp(193): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\rend.cpp(193): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\rend.cpp(194): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\rend.cpp(194): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\rend.cpp(250): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(271): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(286): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(356): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(457): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(685): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(787): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(788): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(789): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(1120): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(1121): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(1230): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(1294): warning C4244: “参数”: 从“float”转换到“GzDepth”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(1349): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(1368): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(1369): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\csci-580-3d-master\hw6\rend.cpp(1370): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  MainFrm.cpp
+  disp.cpp
+  CS580HWView.cpp
+  CS580HWDoc.cpp
+  CS580HW.cpp
+c:\csci-580-3d-master\hw6\cs580hw.cpp(58): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+  c:\program files\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(5224): note: 参见“CWinApp::Enable3dControls”的声明
+  Application5.cpp
+c:\csci-580-3d-master\hw6\application5.cpp(45): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\application5.cpp(45): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(115): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\application5.cpp(115): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(123): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\application5.cpp(123): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(130): warning C4305: “=”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(131): warning C4305: “=”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(134): warning C4305: “=”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(138): warning C4305: “=”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(147): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\application5.cpp(147): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(148): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\application5.cpp(148): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(149): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\application5.cpp(149): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(150): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\application5.cpp(150): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(153): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\application5.cpp(153): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(154): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\application5.cpp(154): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(155): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\csci-580-3d-master\hw6\application5.cpp(155): warning C4305: “初始化”: 从“double”到“float”截断
+c:\csci-580-3d-master\hw6\application5.cpp(72): warning C4101: “shaderType”: 未引用的局部变量
+c:\csci-580-3d-master\hw6\application5.cpp(304): warning C4244: “+=”: 从“float”转换到“GzIntensity”，可能丢失数据
+c:\csci-580-3d-master\hw6\application5.cpp(305): warning C4244: “+=”: 从“float”转换到“GzIntensity”，可能丢失数据
+c:\csci-580-3d-master\hw6\application5.cpp(306): warning C4244: “+=”: 从“float”转换到“GzIntensity”，可能丢失数据
+c:\csci-580-3d-master\hw6\application5.cpp(307): warning C4244: “+=”: 从“float”转换到“GzDepth”，可能丢失数据
+c:\csci-580-3d-master\hw6\application5.cpp(249): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+c:\csci-580-3d-master\hw6\application5.cpp(256): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+c:\csci-580-3d-master\hw6\application5.cpp(266): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+c:\csci-580-3d-master\hw6\application5.cpp(272): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+c:\csci-580-3d-master\hw6\application5.cpp(278): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+c:\csci-580-3d-master\hw6\application5.cpp(284): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+  Application.cpp
+  正在生成代码...
+c:\csci-580-3d-master\hw6\disp.cpp(61): warning C4715: “GzFreeDisplay”: 不是所有的控件路径都返回值
+c:\csci-580-3d-master\hw6\disp.cpp(140): warning C4715: “GzPutDisplay”: 不是所有的控件路径都返回值
+c:\csci-580-3d-master\hw6\disp.cpp(160): warning C4715: “GzGetDisplay”: 不是所有的控件路径都返回值
+c:\csci-580-3d-master\hw6\disp.cpp(186): warning C4715: “GzFlushDisplay2File”: 不是所有的控件路径都返回值
+c:\csci-580-3d-master\hw6\disp.cpp(216): warning C4715: “GzFlushDisplay2FrameBuffer”: 不是所有的控件路径都返回值
+c:\csci-580-3d-master\hw6\disp.cpp(77): warning C4715: “GzGetDisplayParams”: 不是所有的控件路径都返回值
+c:\csci-580-3d-master\hw6\disp.cpp(50): warning C4715: “GzNewDisplay”: 不是所有的控件路径都返回值
+c:\csci-580-3d-master\hw6\disp.cpp(101): warning C4715: “GzInitDisplay”: 不是所有的控件路径都返回值
+ResourceCompile:
+  C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0409" /nologo /fo".\Debug\CS580HW.res" CS580HW.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\CS580HW5.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:".\Debug\CS580HW5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\CS580HW5.lib" /MACHINE:X86 /SAFESEH .\Debug\CS580HW.res
+  .\Debug\Application.obj
+  .\Debug\Application5.obj
+  .\Debug\CS580HW.obj
+  .\Debug\CS580HWDoc.obj
+  .\Debug\CS580HWView.obj
+  .\Debug\disp.obj
+  .\Debug\MainFrm.obj
+  .\Debug\rend.obj
+  .\Debug\RotateDlg.obj
+  .\Debug\ScaleDlg.obj
+  .\Debug\StdAfx.obj
+  .\Debug\tex_fun.obj
+  .\Debug\TranslateDlg.obj
+Application.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  CS580HW5.vcxproj -> C:\CSCI-580-3D-master\HW6\.\Debug\CS580HW5.exe
+已完成生成项目“C:\CSCI-580-3D-master\HW6\CS580HW5.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:05.28
